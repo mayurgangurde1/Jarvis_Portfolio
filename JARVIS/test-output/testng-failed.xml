@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="com.logintest.Testclass1">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="teardown"/>
+          <include name="SelectCheckbox"/>
+          <include name="afterTest"/>
+          <include name="SelectTenure1"/>
+          <include name="ClickOnSubmitMyResponcesButton"/>
+          <include name="ConfirmInvestmentPreference"/>
+          <include name="ClickOnIAgreeButton"/>
+          <include name="SelectAmount"/>
+          <include name="createExtentTest"/>
+          <include name="ClickOnStartNowButton"/>
+          <include name="ClickOnInvestNowButton"/>
+          <include name="ClickOnPayNowButton"/>
+          <include name="ClickOnSubmitMyStrategy"/>
+          <include name="SelectStrategy"/>
+          <include name="ClickonLoginwithPassword"/>
+          <include name="AttemptQuestionnaries"/>
+          <include name="ConfirmRiskProfile"/>
+          <include name="pageobjects"/>
+          <include name="SelectPlan"/>
+          <include name="InitializeBrowser"/>
+          <include name="VerifyLoginFnctionality"/>
+          <include name="CLickOnContinueButton"/>
+          <include name="ConfirmResponces"/>
+          <include name="UnlockPortfolioButton"/>
+          <include name="captureScreenshot"/>
+        </methods>
+      </class> <!-- com.logintest.Testclass1 -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
