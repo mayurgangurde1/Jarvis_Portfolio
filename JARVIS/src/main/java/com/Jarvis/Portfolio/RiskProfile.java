@@ -30,7 +30,7 @@ public class RiskProfile {
 	}
 	public void ClickOnInvestNow()
 	{
-		InvestNow.click();	
+		InvestNow.click();
 	}
 	public void ClickOnStartnow() 
 	{
