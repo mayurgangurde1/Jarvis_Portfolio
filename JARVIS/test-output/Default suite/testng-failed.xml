@@ -5,30 +5,28 @@
     <classes>
       <class name="com.logintest.Testclass1">
         <methods>
+          <include name="ClickOnPayNowButton"/>
           <include name="beforeTest"/>
+          <include name="ClickOnSubmitMyStrategy"/>
           <include name="teardown"/>
+          <include name="SelectStrategy"/>
+          <include name="AttemptQuestionnaries"/>
+          <include name="ConfirmRiskProfile"/>
           <include name="SelectCheckbox"/>
           <include name="afterTest"/>
+          <include name="pageobjects"/>
+          <include name="SelectPlan"/>
+          <include name="InitializeBrowser"/>
           <include name="SelectTenure1"/>
           <include name="ClickOnSubmitMyResponcesButton"/>
           <include name="ConfirmInvestmentPreference"/>
           <include name="ClickOnIAgreeButton"/>
           <include name="SelectAmount"/>
           <include name="createExtentTest"/>
-          <include name="ClickOnStartNowButton"/>
-          <include name="ClickOnInvestNowButton"/>
-          <include name="ClickOnPayNowButton"/>
-          <include name="ClickOnSubmitMyStrategy"/>
-          <include name="SelectStrategy"/>
-          <include name="ClickonLoginwithPassword"/>
-          <include name="AttemptQuestionnaries"/>
-          <include name="ConfirmRiskProfile"/>
-          <include name="pageobjects"/>
-          <include name="SelectPlan"/>
-          <include name="InitializeBrowser"/>
-          <include name="VerifyLoginFnctionality"/>
           <include name="CLickOnContinueButton"/>
           <include name="ConfirmResponces"/>
+          <include name="ClickOnStartNowButton"/>
+          <include name="ClickOnInvestNowButton"/>
           <include name="UnlockPortfolioButton"/>
           <include name="captureScreenshot"/>
         </methods>
