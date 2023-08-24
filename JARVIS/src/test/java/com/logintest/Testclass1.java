@@ -14,7 +14,13 @@ import com.aventstack.extentreports.reporter.ExtentSparkReporter;
 
 import com.jarvis.testutility.BaseTest1;
 
-public class Testclass1 extends BaseTest1 {	
+public class Testclass1 extends BaseTest1 {
+	
+	
+	
+	
+	
+	
 	@Test(priority = 1)
 	public void ClickonLoginwithPassword() throws InterruptedException{
 		 loginpage.ClickOnLoginWithPasswordLink();	
