@@ -93,7 +93,7 @@ public class TestClass extends BaseTest{
 		riskprofile.ConfirmRiskProfile();
 	}
 	@Test(priority =9)
-	public void SelectTenure1()
+	public void SelectTenure1() throws IOException
 	{
 		ExtentTest test = extentReport.createTest("SelectTenure1");
 		investmentpreference.selectYear();

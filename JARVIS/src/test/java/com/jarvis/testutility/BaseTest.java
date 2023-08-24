@@ -1,9 +1,12 @@
 package com.jarvis.testutility;
 
+import java.awt.Desktop;
+import java.io.File;
 import java.io.IOException;
 
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterSuite;
+import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeSuite;
@@ -27,6 +30,15 @@ public class BaseTest extends BaseClass {
 	@AfterSuite
 	public void tearDown() {
 		driver.quit();
+	}
+	@BeforeTest
+	public void beforeTest() {
+		setExtentReport();
+	}
+	@AfterTest
+	public void afterTest() throws IOException {
+		extent.flush();
+		Desktop.getDesktop().browse(new File("Extent Report.html").toURI());
 	}
 	@BeforeMethod
 	public void setObjects() {

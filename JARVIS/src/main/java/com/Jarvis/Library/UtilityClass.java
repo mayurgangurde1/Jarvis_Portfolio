@@ -31,7 +31,7 @@ public class UtilityClass {
 	
 	public static String getDatafromPropertyFile(String key) throws IOException
 	{
-		FileInputStream file = new FileInputStream("/home/ts/git/JARVIS_Portfolio/JARVIS/Config.properties");
+		FileInputStream file = new FileInputStream("C:\\Users\\t\\Documents\\GitHub\\Jarvis_Portfolio\\JARVIS\\Config.properties");
 		Properties prop=new Properties();
 		prop.load(file);
 		String value = prop.getProperty(key);

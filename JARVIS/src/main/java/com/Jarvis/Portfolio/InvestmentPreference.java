@@ -1,9 +1,13 @@
 package com.Jarvis.Portfolio;
 
+import java.io.IOException;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+
+import com.Jarvis.Library.UtilityClass;
 
 public class InvestmentPreference {
 	@FindBy(xpath ="//button[text()='3 Yr']")private WebElement SelectYear;	
@@ -14,12 +18,17 @@ public class InvestmentPreference {
 	@FindBy(xpath ="//button[text()='Continue']")private WebElement ContinueButton;	
 	@FindBy(xpath ="(//button[text()='Confirm'])[1]")private WebElement ConfirmPreference;	
 	@FindBy(xpath ="//div[text()='Unlock now']")private WebElement UnlockNow;	
+	@FindBy(xpath ="//button[text()='Complete onboarding']")private WebElement onboarding;	
 	
 	public InvestmentPreference(WebDriver driver)
 	{
 		PageFactory.initElements(driver, this);
 	}
-	public void selectYear()
+	
+	public void clickoncomplteonboarding() {
+		onboarding.click();		
+	}
+	public void selectYear() throws IOException
 	{
 		SelectYear.click();
 	}

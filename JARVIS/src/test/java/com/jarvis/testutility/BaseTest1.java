@@ -33,7 +33,7 @@ public class BaseTest1 extends BaseClass{
 	}
 	@AfterSuite
 	public void teardown(){
-		driver.quit();
+	//	driver.quit();
 	}
 	@BeforeTest
 	public void beforeTest() {
