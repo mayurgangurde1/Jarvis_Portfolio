@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>9/1/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>13/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Thu Aug 24 17:20:40 IST 2023</td>
+<td>Started on:</td><td>Fri Aug 25 16:12:43 IST 2023</td>
 </tr>
-<tr><td>Total time:</td><td>25 seconds (25901 ms)</td>
+<tr><td>Total time:</td><td>59 seconds (59256 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -76,16 +76,16 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='com.logintest.Testclass1.ClickonPaynowButton()'><b>ClickonPaynowButton</b><br>Test class: com.logintest.Testclass1</td>
-<td><div><pre>org.openqa.selenium.ElementNotInteractableException: element not interactable
+<td title='com.logintest.Testclass2.ClickonContinueButton()'><b>ClickonContinueButton</b><br>Test class: com.logintest.Testclass2</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;MuiButtonBase-root MuiButton-root MuiLoadingButton-root jss102 MuiButton-contained jss104 MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium css-xxp22q&quot;}
   (Session info: chrome=116.0.5845.98)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
 Build info: version: &apos;4.9.1&apos;, revision: &apos;eb2032df7f&apos;
 System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.7&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [aa702b8a957413dc057e3eae2c05b80b, clickElement {id=62505F30805342B520830118E96C3E96_element_101}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 116.0.5845.98, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: C:\Users\t\AppData\Local\Te...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53224}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53224/devtoo..., se:cdpVersion: 116.0.5845.98, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (aa702b8a957413dc057e3eae2c05b80b)] -&gt; xpath: (//button[text()=&apos;Pay &apos;])[2]]
-Session ID: aa702b8a957413dc057e3eae2c05b80b
+Command: [c969a49c2c5ca03c7c8103aa69de3e31, findElement {using=css selector, value=MuiButtonBase-root MuiButton-root MuiLoadingButton-root jss102 MuiButton-contained jss104 MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium css-xxp22q}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 116.0.5845.98, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: C:\Users\t\AppData\Local\Te...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63891}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63891/devtoo..., se:cdpVersion: 116.0.5845.98, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c969a49c2c5ca03c7c8103aa69de3e31
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
@@ -93,23 +93,26 @@ Session ID: aa702b8a957413dc057e3eae2c05b80b
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:78)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
-	at jdk.proxy2/jdk.proxy2.$Proxy22.click(Unknown Source)
-	at com.Jarvis.Portfolio.Payment.clickonpaynow(Payment.java:43)
-	at com.logintest.Testclass1.ClickonPaynowButton(Testclass1.java:142)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+	at jdk.proxy2/jdk.proxy2.$Proxy22.getText(Unknown Source)
+	at com.Jarvis.Portfolio.Payment.ClickonContinueButton(Payment.java:71)
+	at com.logintest.Testclass2.ClickonContinueButton(Testclass2.java:165)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 36 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace982565180", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace982565180'><pre>org.openqa.selenium.ElementNotInteractableException: element not interactable
+... Removed 32 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace377667724", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace377667724'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;MuiButtonBase-root MuiButton-root MuiLoadingButton-root jss102 MuiButton-contained jss104 MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium css-xxp22q&quot;}
   (Session info: chrome=116.0.5845.98)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
 Build info: version: &apos;4.9.1&apos;, revision: &apos;eb2032df7f&apos;
 System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.7&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [aa702b8a957413dc057e3eae2c05b80b, clickElement {id=62505F30805342B520830118E96C3E96_element_101}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 116.0.5845.98, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: C:\Users\t\AppData\Local\Te...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53224}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53224/devtoo..., se:cdpVersion: 116.0.5845.98, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (aa702b8a957413dc057e3eae2c05b80b)] -&gt; xpath: (//button[text()=&apos;Pay &apos;])[2]]
-Session ID: aa702b8a957413dc057e3eae2c05b80b
+Command: [c969a49c2c5ca03c7c8103aa69de3e31, findElement {using=css selector, value=MuiButtonBase-root MuiButton-root MuiLoadingButton-root jss102 MuiButton-contained jss104 MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium css-xxp22q}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 116.0.5845.98, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: C:\Users\t\AppData\Local\Te...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63891}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63891/devtoo..., se:cdpVersion: 116.0.5845.98, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c969a49c2c5ca03c7c8103aa69de3e31
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -122,16 +125,15 @@ Session ID: aa702b8a957413dc057e3eae2c05b80b
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:78)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
-	at jdk.proxy2/jdk.proxy2.$Proxy22.click(Unknown Source)
-	at com.Jarvis.Portfolio.Payment.clickonpaynow(Payment.java:43)
-	at com.logintest.Testclass1.ClickonPaynowButton(Testclass1.java:142)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+	at jdk.proxy2/jdk.proxy2.$Proxy22.getText(Unknown Source)
+	at com.Jarvis.Portfolio.Payment.ClickonContinueButton(Payment.java:71)
+	at com.logintest.Testclass2.ClickonContinueButton(Testclass2.java:165)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -161,8 +163,8 @@ Session ID: aa702b8a957413dc057e3eae2c05b80b
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
-<td>10</td>
-<td>com.logintest.Testclass1@4d1c005e</td></tr>
+<td>13</td>
+<td>com.logintest.Testclass2@70ed52de</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
@@ -173,50 +175,70 @@ Session ID: aa702b8a957413dc057e3eae2c05b80b
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='com.logintest.Testclass1.VerifyLoginFnctionality()'><b>VerifyLoginFnctionality</b><br>Test class: com.logintest.Testclass1</td>
+<td title='com.logintest.Testclass2.VerifyLoginFnctionality()'><b>VerifyLoginFnctionality</b><br>Test class: com.logintest.Testclass2</td>
 <td></td>
-<td>5</td>
-<td>com.logintest.Testclass1@4d1c005e</td></tr>
+<td>6</td>
+<td>com.logintest.Testclass2@70ed52de</td></tr>
 <tr>
-<td title='com.logintest.Testclass1.ClickOnIAgreeButton()'><b>ClickOnIAgreeButton</b><br>Test class: com.logintest.Testclass1</td>
+<td title='com.logintest.Testclass2.ClickOnPayNow()'><b>ClickOnPayNow</b><br>Test class: com.logintest.Testclass2</td>
 <td></td>
-<td>0</td>
-<td>com.logintest.Testclass1@4d1c005e</td></tr>
+<td>22</td>
+<td>com.logintest.Testclass2@70ed52de</td></tr>
 <tr>
-<td title='com.logintest.Testclass1.ClickOnPayNowButton()'><b>ClickOnPayNowButton</b><br>Test class: com.logintest.Testclass1</td>
-<td></td>
-<td>0</td>
-<td>com.logintest.Testclass1@4d1c005e</td></tr>
-<tr>
-<td title='com.logintest.Testclass1.ClickonLoginwithPassword()'><b>ClickonLoginwithPassword</b><br>Test class: com.logintest.Testclass1</td>
+<td title='com.logintest.Testclass2.EnterUpiId()'><b>EnterUpiId</b><br>Test class: com.logintest.Testclass2</td>
 <td></td>
 <td>0</td>
-<td>com.logintest.Testclass1@4d1c005e</td></tr>
+<td>com.logintest.Testclass2@70ed52de</td></tr>
 <tr>
-<td title='com.logintest.Testclass1.Clickonboarding()'><b>Clickonboarding</b><br>Test class: com.logintest.Testclass1</td>
-<td></td>
-<td>2</td>
-<td>com.logintest.Testclass1@4d1c005e</td></tr>
-<tr>
-<td title='com.logintest.Testclass1.selectpaymentmethod()'><b>selectpaymentmethod</b><br>Test class: com.logintest.Testclass1</td>
+<td title='com.logintest.Testclass2.UnlockPortfolioButton()'><b>UnlockPortfolioButton</b><br>Test class: com.logintest.Testclass2</td>
 <td></td>
 <td>0</td>
-<td>com.logintest.Testclass1@4d1c005e</td></tr>
+<td>com.logintest.Testclass2@70ed52de</td></tr>
 <tr>
-<td title='com.logintest.Testclass1.EnterUpiID()'><b>EnterUpiID</b><br>Test class: com.logintest.Testclass1</td>
+<td title='com.logintest.Testclass2.ClickOnPayNowButton()'><b>ClickOnPayNowButton</b><br>Test class: com.logintest.Testclass2</td>
 <td></td>
 <td>0</td>
-<td>com.logintest.Testclass1@4d1c005e</td></tr>
+<td>com.logintest.Testclass2@70ed52de</td></tr>
 <tr>
-<td title='com.logintest.Testclass1.CLickonVerifyButton()'><b>CLickonVerifyButton</b><br>Test class: com.logintest.Testclass1</td>
+<td title='com.logintest.Testclass2.Clickonboarding()'><b>Clickonboarding</b><br>Test class: com.logintest.Testclass2</td>
 <td></td>
 <td>3</td>
-<td>com.logintest.Testclass1@4d1c005e</td></tr>
+<td>com.logintest.Testclass2@70ed52de</td></tr>
 <tr>
-<td title='com.logintest.Testclass1.UnlockPortfolioButton()'><b>UnlockPortfolioButton</b><br>Test class: com.logintest.Testclass1</td>
+<td title='com.logintest.Testclass2.selectpaymentmethod()'><b>selectpaymentmethod</b><br>Test class: com.logintest.Testclass2</td>
 <td></td>
 <td>0</td>
-<td>com.logintest.Testclass1@4d1c005e</td></tr>
+<td>com.logintest.Testclass2@70ed52de</td></tr>
+<tr>
+<td title='com.logintest.Testclass2.CLickonVerifyButton()'><b>CLickonVerifyButton</b><br>Test class: com.logintest.Testclass2</td>
+<td></td>
+<td>3</td>
+<td>com.logintest.Testclass2@70ed52de</td></tr>
+<tr>
+<td title='com.logintest.Testclass2.ClickOnIAgreeButton()'><b>ClickOnIAgreeButton</b><br>Test class: com.logintest.Testclass2</td>
+<td></td>
+<td>0</td>
+<td>com.logintest.Testclass2@70ed52de</td></tr>
+<tr>
+<td title='com.logintest.Testclass2.EnterUpiID()'><b>EnterUpiID</b><br>Test class: com.logintest.Testclass2</td>
+<td></td>
+<td>0</td>
+<td>com.logintest.Testclass2@70ed52de</td></tr>
+<tr>
+<td title='com.logintest.Testclass2.ClickonPayUsingupi()'><b>ClickonPayUsingupi</b><br>Test class: com.logintest.Testclass2</td>
+<td></td>
+<td>6</td>
+<td>com.logintest.Testclass2@70ed52de</td></tr>
+<tr>
+<td title='com.logintest.Testclass2.ClickonPaynowButton()'><b>ClickonPaynowButton</b><br>Test class: com.logintest.Testclass2</td>
+<td></td>
+<td>0</td>
+<td>com.logintest.Testclass2@70ed52de</td></tr>
+<tr>
+<td title='com.logintest.Testclass2.ClickonLoginwithPassword()'><b>ClickonLoginwithPassword</b><br>Test class: com.logintest.Testclass2</td>
+<td></td>
+<td>0</td>
+<td>com.logintest.Testclass2@70ed52de</td></tr>
 </table><p>
 </body>
 </html>

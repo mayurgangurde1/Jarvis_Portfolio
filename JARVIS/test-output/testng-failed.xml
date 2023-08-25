@@ -3,18 +3,18 @@
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="com.logintest.Testclass1">
+      <class name="com.logintest.Testclass2">
         <methods>
           <include name="beforeTest"/>
           <include name="teardown"/>
-          <include name="ClickonPaynowButton"/>
-          <include name="createExtentTest"/>
+          <include name="ClickonContinueButton"/>
           <include name="pageobjects"/>
+          <include name="createExtentTest"/>
           <include name="afterTest"/>
           <include name="captureScreenshot"/>
           <include name="InitializeBrowser"/>
         </methods>
-      </class> <!-- com.logintest.Testclass1 -->
+      </class> <!-- com.logintest.Testclass2 -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
