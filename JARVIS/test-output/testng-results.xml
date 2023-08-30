@@ -1,552 +1,241 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="14" passed="13" failed="1" skipped="0">
+<testng-results ignored="0" total="6" passed="5" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-08-25T16:12:43 IST" name="Suite" finished-at="2023-08-25T16:13:42 IST" duration-ms="59256">
+  <suite started-at="2023-08-29T15:46:51 IST" name="Suite" finished-at="2023-08-29T15:47:26 IST" duration-ms="35232">
     <groups>
     </groups>
-    <test started-at="2023-08-25T16:12:43 IST" name="Test" finished-at="2023-08-25T16:13:42 IST" duration-ms="59256">
-      <class name="com.logintest.Testclass2">
-        <test-method is-config="true" signature="InitializeBrowser()[pri:0, instance:com.logintest.Testclass2@70ed52de]" started-at="2023-08-25T16:12:37 IST" name="InitializeBrowser" finished-at="2023-08-25T16:12:43 IST" duration-ms="5745" status="PASS">
+    <test started-at="2023-08-29T15:46:51 IST" name="Test Suit" finished-at="2023-08-29T15:47:26 IST" duration-ms="35232">
+      <class name="com.logintest.Testclass_investmore">
+        <test-method is-config="true" signature="InitializeBrowser()[pri:0, instance:com.logintest.Testclass_investmore@183ec003]" started-at="2023-08-29T15:46:45 IST" name="InitializeBrowser" finished-at="2023-08-29T15:46:51 IST" duration-ms="5565" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- InitializeBrowser -->
-        <test-method is-config="true" signature="beforeTest()[pri:0, instance:com.logintest.Testclass2@70ed52de]" started-at="2023-08-25T16:12:43 IST" name="beforeTest" finished-at="2023-08-25T16:12:44 IST" duration-ms="556" status="PASS">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:com.logintest.Testclass_investmore@183ec003]" started-at="2023-08-29T15:46:51 IST" name="beforeTest" finished-at="2023-08-29T15:46:51 IST" duration-ms="271" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method is-config="true" signature="pageobjects()[pri:0, instance:com.logintest.Testclass2@70ed52de]" started-at="2023-08-25T16:12:44 IST" name="pageobjects" finished-at="2023-08-25T16:12:44 IST" duration-ms="87" status="PASS">
+        <test-method is-config="true" signature="pageobjects()[pri:0, instance:com.logintest.Testclass_investmore@183ec003]" started-at="2023-08-29T15:46:51 IST" name="pageobjects" finished-at="2023-08-29T15:46:51 IST" duration-ms="63" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- pageobjects -->
-        <test-method is-config="true" signature="createExtentTest(org.testng.ITestResult,java.lang.reflect.Method)[pri:0, instance:com.logintest.Testclass2@70ed52de]" started-at="2023-08-25T16:12:44 IST" name="createExtentTest" finished-at="2023-08-25T16:12:44 IST" duration-ms="13" status="PASS">
+        <test-method is-config="true" signature="createExtentTest(org.testng.ITestResult,java.lang.reflect.Method)[pri:0, instance:com.logintest.Testclass_investmore@183ec003]" started-at="2023-08-29T15:46:51 IST" name="createExtentTest" finished-at="2023-08-29T15:46:51 IST" duration-ms="9" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name={null} status=CREATED method=Testclass2.ClickonLoginwithPassword()[pri:1, instance:com.logintest.Testclass2@70ed52de] output={null}]]]>
+                <![CDATA[[TestResult name={null} status=CREATED method=Testclass_investmore.ClickonLoginwithPassword()[pri:1, instance:com.logintest.Testclass_investmore@183ec003] output={null}]]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[public void com.logintest.Testclass2.ClickonLoginwithPassword() throws java.lang.InterruptedException]]>
+                <![CDATA[public void com.logintest.Testclass_investmore.ClickonLoginwithPassword() throws java.lang.InterruptedException]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createExtentTest -->
-        <test-method signature="ClickonLoginwithPassword()[pri:1, instance:com.logintest.Testclass2@70ed52de]" started-at="2023-08-25T16:12:44 IST" name="ClickonLoginwithPassword" finished-at="2023-08-25T16:12:44 IST" duration-ms="269" status="PASS">
+        <test-method signature="ClickonLoginwithPassword()[pri:1, instance:com.logintest.Testclass_investmore@183ec003]" started-at="2023-08-29T15:46:51 IST" name="ClickonLoginwithPassword" finished-at="2023-08-29T15:46:51 IST" duration-ms="143" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ClickonLoginwithPassword -->
-        <test-method is-config="true" signature="captureScreenshot(org.testng.ITestResult,java.lang.reflect.Method)[pri:0, instance:com.logintest.Testclass2@70ed52de]" started-at="2023-08-25T16:12:44 IST" name="captureScreenshot" finished-at="2023-08-25T16:12:44 IST" duration-ms="36" status="PASS">
+        <test-method is-config="true" signature="captureScreenshot(org.testng.ITestResult,java.lang.reflect.Method)[pri:0, instance:com.logintest.Testclass_investmore@183ec003]" started-at="2023-08-29T15:46:51 IST" name="captureScreenshot" finished-at="2023-08-29T15:46:51 IST" duration-ms="11" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=ClickonLoginwithPassword status=SUCCESS method=Testclass2.ClickonLoginwithPassword()[pri:1, instance:com.logintest.Testclass2@70ed52de] output={null}]]]>
+                <![CDATA[[TestResult name=ClickonLoginwithPassword status=SUCCESS method=Testclass_investmore.ClickonLoginwithPassword()[pri:1, instance:com.logintest.Testclass_investmore@183ec003] output={null}]]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[public void com.logintest.Testclass2.ClickonLoginwithPassword() throws java.lang.InterruptedException]]>
+                <![CDATA[public void com.logintest.Testclass_investmore.ClickonLoginwithPassword() throws java.lang.InterruptedException]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- captureScreenshot -->
-        <test-method signature="VerifyLoginFnctionality()[pri:2, instance:com.logintest.Testclass2@70ed52de]" started-at="2023-08-25T16:12:44 IST" name="VerifyLoginFnctionality" finished-at="2023-08-25T16:12:50 IST" duration-ms="6263" status="PASS">
+        <test-method is-config="true" signature="createExtentTest(org.testng.ITestResult,java.lang.reflect.Method)[pri:0, instance:com.logintest.Testclass_investmore@183ec003]" started-at="2023-08-29T15:46:51 IST" name="createExtentTest" finished-at="2023-08-29T15:46:51 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=Testclass_investmore.VerifyLoginFnctionality()[pri:2, instance:com.logintest.Testclass_investmore@183ec003] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.logintest.Testclass_investmore.VerifyLoginFnctionality() throws java.lang.InterruptedException,java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createExtentTest -->
+        <test-method signature="VerifyLoginFnctionality()[pri:2, instance:com.logintest.Testclass_investmore@183ec003]" started-at="2023-08-29T15:46:51 IST" name="VerifyLoginFnctionality" finished-at="2023-08-29T15:46:57 IST" duration-ms="5784" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifyLoginFnctionality -->
-        <test-method is-config="true" signature="createExtentTest(org.testng.ITestResult,java.lang.reflect.Method)[pri:0, instance:com.logintest.Testclass2@70ed52de]" started-at="2023-08-25T16:12:44 IST" name="createExtentTest" finished-at="2023-08-25T16:12:44 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="captureScreenshot(org.testng.ITestResult,java.lang.reflect.Method)[pri:0, instance:com.logintest.Testclass_investmore@183ec003]" started-at="2023-08-29T15:46:57 IST" name="captureScreenshot" finished-at="2023-08-29T15:46:57 IST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name={null} status=CREATED method=Testclass2.VerifyLoginFnctionality()[pri:2, instance:com.logintest.Testclass2@70ed52de] output={null}]]]>
+                <![CDATA[[TestResult name=VerifyLoginFnctionality status=SUCCESS method=Testclass_investmore.VerifyLoginFnctionality()[pri:2, instance:com.logintest.Testclass_investmore@183ec003] output={null}]]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[public void com.logintest.Testclass2.VerifyLoginFnctionality() throws java.lang.InterruptedException,java.io.IOException]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- createExtentTest -->
-        <test-method is-config="true" signature="captureScreenshot(org.testng.ITestResult,java.lang.reflect.Method)[pri:0, instance:com.logintest.Testclass2@70ed52de]" started-at="2023-08-25T16:12:50 IST" name="captureScreenshot" finished-at="2023-08-25T16:12:51 IST" duration-ms="32" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=VerifyLoginFnctionality status=SUCCESS method=Testclass2.VerifyLoginFnctionality()[pri:2, instance:com.logintest.Testclass2@70ed52de] output={null}]]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[public void com.logintest.Testclass2.VerifyLoginFnctionality() throws java.lang.InterruptedException,java.io.IOException]]>
+                <![CDATA[public void com.logintest.Testclass_investmore.VerifyLoginFnctionality() throws java.lang.InterruptedException,java.io.IOException]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- captureScreenshot -->
-        <test-method is-config="true" signature="createExtentTest(org.testng.ITestResult,java.lang.reflect.Method)[pri:0, instance:com.logintest.Testclass2@70ed52de]" started-at="2023-08-25T16:12:51 IST" name="createExtentTest" finished-at="2023-08-25T16:12:51 IST" duration-ms="10" status="PASS">
+        <test-method is-config="true" signature="createExtentTest(org.testng.ITestResult,java.lang.reflect.Method)[pri:0, instance:com.logintest.Testclass_investmore@183ec003]" started-at="2023-08-29T15:46:57 IST" name="createExtentTest" finished-at="2023-08-29T15:46:57 IST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name={null} status=CREATED method=Testclass2.Clickonboarding()[pri:17, instance:com.logintest.Testclass2@70ed52de] output={null}]]]>
+                <![CDATA[[TestResult name={null} status=CREATED method=Testclass_investmore.ClickOnPortfolio()[pri:3, instance:com.logintest.Testclass_investmore@183ec003] output={null}]]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[public void com.logintest.Testclass2.Clickonboarding()]]>
+                <![CDATA[public void com.logintest.Testclass_investmore.ClickOnPortfolio()]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createExtentTest -->
-        <test-method signature="Clickonboarding()[pri:17, instance:com.logintest.Testclass2@70ed52de]" started-at="2023-08-25T16:12:51 IST" name="Clickonboarding" finished-at="2023-08-25T16:12:54 IST" duration-ms="3118" status="PASS">
+        <test-method signature="ClickOnPortfolio()[pri:3, instance:com.logintest.Testclass_investmore@183ec003]" started-at="2023-08-29T15:46:57 IST" name="ClickOnPortfolio" finished-at="2023-08-29T15:46:57 IST" duration-ms="398" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Clickonboarding -->
-        <test-method is-config="true" signature="captureScreenshot(org.testng.ITestResult,java.lang.reflect.Method)[pri:0, instance:com.logintest.Testclass2@70ed52de]" started-at="2023-08-25T16:12:54 IST" name="captureScreenshot" finished-at="2023-08-25T16:12:54 IST" duration-ms="1" status="PASS">
+        </test-method> <!-- ClickOnPortfolio -->
+        <test-method is-config="true" signature="captureScreenshot(org.testng.ITestResult,java.lang.reflect.Method)[pri:0, instance:com.logintest.Testclass_investmore@183ec003]" started-at="2023-08-29T15:46:57 IST" name="captureScreenshot" finished-at="2023-08-29T15:46:57 IST" duration-ms="5" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=Clickonboarding status=SUCCESS method=Testclass2.Clickonboarding()[pri:17, instance:com.logintest.Testclass2@70ed52de] output={null}]]]>
+                <![CDATA[[TestResult name=ClickOnPortfolio status=SUCCESS method=Testclass_investmore.ClickOnPortfolio()[pri:3, instance:com.logintest.Testclass_investmore@183ec003] output={null}]]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[public void com.logintest.Testclass2.Clickonboarding()]]>
+                <![CDATA[public void com.logintest.Testclass_investmore.ClickOnPortfolio()]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- captureScreenshot -->
-        <test-method is-config="true" signature="createExtentTest(org.testng.ITestResult,java.lang.reflect.Method)[pri:0, instance:com.logintest.Testclass2@70ed52de]" started-at="2023-08-25T16:12:54 IST" name="createExtentTest" finished-at="2023-08-25T16:12:54 IST" duration-ms="7" status="PASS">
+        <test-method is-config="true" signature="createExtentTest(org.testng.ITestResult,java.lang.reflect.Method)[pri:0, instance:com.logintest.Testclass_investmore@183ec003]" started-at="2023-08-29T15:46:57 IST" name="createExtentTest" finished-at="2023-08-29T15:46:57 IST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name={null} status=CREATED method=Testclass2.UnlockPortfolioButton()[pri:18, instance:com.logintest.Testclass2@70ed52de] output={null}]]]>
+                <![CDATA[[TestResult name={null} status=CREATED method=Testclass_investmore.ClickonInvetmore()[pri:4, instance:com.logintest.Testclass_investmore@183ec003] output={null}]]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[public void com.logintest.Testclass2.UnlockPortfolioButton()]]>
+                <![CDATA[public void com.logintest.Testclass_investmore.ClickonInvetmore() throws java.lang.InterruptedException]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createExtentTest -->
-        <test-method signature="UnlockPortfolioButton()[pri:18, instance:com.logintest.Testclass2@70ed52de]" started-at="2023-08-25T16:12:54 IST" name="UnlockPortfolioButton" finished-at="2023-08-25T16:12:54 IST" duration-ms="668" status="PASS">
+        <test-method signature="ClickonInvetmore()[pri:4, instance:com.logintest.Testclass_investmore@183ec003]" started-at="2023-08-29T15:46:57 IST" name="ClickonInvetmore" finished-at="2023-08-29T15:47:04 IST" duration-ms="6317" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- UnlockPortfolioButton -->
-        <test-method is-config="true" signature="captureScreenshot(org.testng.ITestResult,java.lang.reflect.Method)[pri:0, instance:com.logintest.Testclass2@70ed52de]" started-at="2023-08-25T16:12:54 IST" name="captureScreenshot" finished-at="2023-08-25T16:12:54 IST" duration-ms="1" status="PASS">
+        </test-method> <!-- ClickonInvetmore -->
+        <test-method is-config="true" signature="captureScreenshot(org.testng.ITestResult,java.lang.reflect.Method)[pri:0, instance:com.logintest.Testclass_investmore@183ec003]" started-at="2023-08-29T15:47:04 IST" name="captureScreenshot" finished-at="2023-08-29T15:47:04 IST" duration-ms="3" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=UnlockPortfolioButton status=SUCCESS method=Testclass2.UnlockPortfolioButton()[pri:18, instance:com.logintest.Testclass2@70ed52de] output={null}]]]>
+                <![CDATA[[TestResult name=ClickonInvetmore status=SUCCESS method=Testclass_investmore.ClickonInvetmore()[pri:4, instance:com.logintest.Testclass_investmore@183ec003] output={null}]]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[public void com.logintest.Testclass2.UnlockPortfolioButton()]]>
+                <![CDATA[public void com.logintest.Testclass_investmore.ClickonInvetmore() throws java.lang.InterruptedException]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- captureScreenshot -->
-        <test-method is-config="true" signature="createExtentTest(org.testng.ITestResult,java.lang.reflect.Method)[pri:0, instance:com.logintest.Testclass2@70ed52de]" started-at="2023-08-25T16:12:54 IST" name="createExtentTest" finished-at="2023-08-25T16:12:54 IST" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="createExtentTest(org.testng.ITestResult,java.lang.reflect.Method)[pri:0, instance:com.logintest.Testclass_investmore@183ec003]" started-at="2023-08-29T15:47:04 IST" name="createExtentTest" finished-at="2023-08-29T15:47:04 IST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name={null} status=CREATED method=Testclass2.ClickOnPayNowButton()[pri:19, instance:com.logintest.Testclass2@70ed52de] output={null}]]]>
+                <![CDATA[[TestResult name={null} status=CREATED method=Testclass_investmore.ClickonProceedButton()[pri:5, instance:com.logintest.Testclass_investmore@183ec003] output={null}]]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[public void com.logintest.Testclass2.ClickOnPayNowButton()]]>
+                <![CDATA[public void com.logintest.Testclass_investmore.ClickonProceedButton()]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createExtentTest -->
-        <test-method signature="ClickOnPayNowButton()[pri:19, instance:com.logintest.Testclass2@70ed52de]" started-at="2023-08-25T16:12:54 IST" name="ClickOnPayNowButton" finished-at="2023-08-25T16:12:55 IST" duration-ms="136" status="PASS">
+        <test-method signature="ClickonProceedButton()[pri:5, instance:com.logintest.Testclass_investmore@183ec003]" started-at="2023-08-29T15:47:04 IST" name="ClickonProceedButton" finished-at="2023-08-29T15:47:04 IST" duration-ms="163" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- ClickOnPayNowButton -->
-        <test-method is-config="true" signature="captureScreenshot(org.testng.ITestResult,java.lang.reflect.Method)[pri:0, instance:com.logintest.Testclass2@70ed52de]" started-at="2023-08-25T16:12:55 IST" name="captureScreenshot" finished-at="2023-08-25T16:12:55 IST" duration-ms="2" status="PASS">
+        </test-method> <!-- ClickonProceedButton -->
+        <test-method is-config="true" signature="captureScreenshot(org.testng.ITestResult,java.lang.reflect.Method)[pri:0, instance:com.logintest.Testclass_investmore@183ec003]" started-at="2023-08-29T15:47:04 IST" name="captureScreenshot" finished-at="2023-08-29T15:47:04 IST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=ClickOnPayNowButton status=SUCCESS method=Testclass2.ClickOnPayNowButton()[pri:19, instance:com.logintest.Testclass2@70ed52de] output={null}]]]>
+                <![CDATA[[TestResult name=ClickonProceedButton status=SUCCESS method=Testclass_investmore.ClickonProceedButton()[pri:5, instance:com.logintest.Testclass_investmore@183ec003] output={null}]]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[public void com.logintest.Testclass2.ClickOnPayNowButton()]]>
+                <![CDATA[public void com.logintest.Testclass_investmore.ClickonProceedButton()]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- captureScreenshot -->
-        <test-method is-config="true" signature="createExtentTest(org.testng.ITestResult,java.lang.reflect.Method)[pri:0, instance:com.logintest.Testclass2@70ed52de]" started-at="2023-08-25T16:12:55 IST" name="createExtentTest" finished-at="2023-08-25T16:12:55 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="createExtentTest(org.testng.ITestResult,java.lang.reflect.Method)[pri:0, instance:com.logintest.Testclass_investmore@183ec003]" started-at="2023-08-29T15:47:04 IST" name="createExtentTest" finished-at="2023-08-29T15:47:04 IST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name={null} status=CREATED method=Testclass2.ClickOnIAgreeButton()[pri:20, instance:com.logintest.Testclass2@70ed52de] output={null}]]]>
+                <![CDATA[[TestResult name={null} status=CREATED method=Testclass_investmore.ClickonContinuebutton()[pri:6, instance:com.logintest.Testclass_investmore@183ec003] output={null}]]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[public void com.logintest.Testclass2.ClickOnIAgreeButton()]]>
+                <![CDATA[public void com.logintest.Testclass_investmore.ClickonContinuebutton()]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createExtentTest -->
-        <test-method signature="ClickOnIAgreeButton()[pri:20, instance:com.logintest.Testclass2@70ed52de]" started-at="2023-08-25T16:12:55 IST" name="ClickOnIAgreeButton" finished-at="2023-08-25T16:12:55 IST" duration-ms="133" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ClickOnIAgreeButton -->
-        <test-method is-config="true" signature="captureScreenshot(org.testng.ITestResult,java.lang.reflect.Method)[pri:0, instance:com.logintest.Testclass2@70ed52de]" started-at="2023-08-25T16:12:55 IST" name="captureScreenshot" finished-at="2023-08-25T16:12:55 IST" duration-ms="1" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=ClickOnIAgreeButton status=SUCCESS method=Testclass2.ClickOnIAgreeButton()[pri:20, instance:com.logintest.Testclass2@70ed52de] output={null}]]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[public void com.logintest.Testclass2.ClickOnIAgreeButton()]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- captureScreenshot -->
-        <test-method is-config="true" signature="createExtentTest(org.testng.ITestResult,java.lang.reflect.Method)[pri:0, instance:com.logintest.Testclass2@70ed52de]" started-at="2023-08-25T16:12:55 IST" name="createExtentTest" finished-at="2023-08-25T16:12:55 IST" duration-ms="1" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name={null} status=CREATED method=Testclass2.selectpaymentmethod()[pri:21, instance:com.logintest.Testclass2@70ed52de] output={null}]]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[public void com.logintest.Testclass2.selectpaymentmethod()]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- createExtentTest -->
-        <test-method signature="selectpaymentmethod()[pri:21, instance:com.logintest.Testclass2@70ed52de]" started-at="2023-08-25T16:12:55 IST" name="selectpaymentmethod" finished-at="2023-08-25T16:12:55 IST" duration-ms="118" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- selectpaymentmethod -->
-        <test-method is-config="true" signature="captureScreenshot(org.testng.ITestResult,java.lang.reflect.Method)[pri:0, instance:com.logintest.Testclass2@70ed52de]" started-at="2023-08-25T16:12:55 IST" name="captureScreenshot" finished-at="2023-08-25T16:12:55 IST" duration-ms="2" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=selectpaymentmethod status=SUCCESS method=Testclass2.selectpaymentmethod()[pri:21, instance:com.logintest.Testclass2@70ed52de] output={null}]]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[public void com.logintest.Testclass2.selectpaymentmethod()]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- captureScreenshot -->
-        <test-method is-config="true" signature="createExtentTest(org.testng.ITestResult,java.lang.reflect.Method)[pri:0, instance:com.logintest.Testclass2@70ed52de]" started-at="2023-08-25T16:12:55 IST" name="createExtentTest" finished-at="2023-08-25T16:12:55 IST" duration-ms="0" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name={null} status=CREATED method=Testclass2.EnterUpiID()[pri:22, instance:com.logintest.Testclass2@70ed52de] output={null}]]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[public void com.logintest.Testclass2.EnterUpiID()]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- createExtentTest -->
-        <test-method signature="EnterUpiID()[pri:22, instance:com.logintest.Testclass2@70ed52de]" started-at="2023-08-25T16:12:55 IST" name="EnterUpiID" finished-at="2023-08-25T16:12:55 IST" duration-ms="194" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- EnterUpiID -->
-        <test-method is-config="true" signature="captureScreenshot(org.testng.ITestResult,java.lang.reflect.Method)[pri:0, instance:com.logintest.Testclass2@70ed52de]" started-at="2023-08-25T16:12:55 IST" name="captureScreenshot" finished-at="2023-08-25T16:12:55 IST" duration-ms="3" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=EnterUpiID status=SUCCESS method=Testclass2.EnterUpiID()[pri:22, instance:com.logintest.Testclass2@70ed52de] output={null}]]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[public void com.logintest.Testclass2.EnterUpiID()]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- captureScreenshot -->
-        <test-method is-config="true" signature="createExtentTest(org.testng.ITestResult,java.lang.reflect.Method)[pri:0, instance:com.logintest.Testclass2@70ed52de]" started-at="2023-08-25T16:12:55 IST" name="createExtentTest" finished-at="2023-08-25T16:12:55 IST" duration-ms="1" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name={null} status=CREATED method=Testclass2.CLickonVerifyButton()[pri:23, instance:com.logintest.Testclass2@70ed52de] output={null}]]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[public void com.logintest.Testclass2.CLickonVerifyButton() throws java.lang.InterruptedException]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- createExtentTest -->
-        <test-method signature="CLickonVerifyButton()[pri:23, instance:com.logintest.Testclass2@70ed52de]" started-at="2023-08-25T16:12:55 IST" name="CLickonVerifyButton" finished-at="2023-08-25T16:12:58 IST" duration-ms="3111" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- CLickonVerifyButton -->
-        <test-method is-config="true" signature="captureScreenshot(org.testng.ITestResult,java.lang.reflect.Method)[pri:0, instance:com.logintest.Testclass2@70ed52de]" started-at="2023-08-25T16:12:58 IST" name="captureScreenshot" finished-at="2023-08-25T16:12:58 IST" duration-ms="1" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=CLickonVerifyButton status=SUCCESS method=Testclass2.CLickonVerifyButton()[pri:23, instance:com.logintest.Testclass2@70ed52de] output={null}]]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[public void com.logintest.Testclass2.CLickonVerifyButton() throws java.lang.InterruptedException]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- captureScreenshot -->
-        <test-method is-config="true" signature="createExtentTest(org.testng.ITestResult,java.lang.reflect.Method)[pri:0, instance:com.logintest.Testclass2@70ed52de]" started-at="2023-08-25T16:12:58 IST" name="createExtentTest" finished-at="2023-08-25T16:12:58 IST" duration-ms="4" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name={null} status=CREATED method=Testclass2.ClickonPaynowButton()[pri:24, instance:com.logintest.Testclass2@70ed52de] output={null}]]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[public void com.logintest.Testclass2.ClickonPaynowButton()]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- createExtentTest -->
-        <test-method signature="ClickonPaynowButton()[pri:24, instance:com.logintest.Testclass2@70ed52de]" started-at="2023-08-25T16:12:58 IST" name="ClickonPaynowButton" finished-at="2023-08-25T16:12:58 IST" duration-ms="144" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ClickonPaynowButton -->
-        <test-method is-config="true" signature="captureScreenshot(org.testng.ITestResult,java.lang.reflect.Method)[pri:0, instance:com.logintest.Testclass2@70ed52de]" started-at="2023-08-25T16:12:58 IST" name="captureScreenshot" finished-at="2023-08-25T16:12:58 IST" duration-ms="2" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=ClickonPaynowButton status=SUCCESS method=Testclass2.ClickonPaynowButton()[pri:24, instance:com.logintest.Testclass2@70ed52de] output={null}]]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[public void com.logintest.Testclass2.ClickonPaynowButton()]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- captureScreenshot -->
-        <test-method is-config="true" signature="createExtentTest(org.testng.ITestResult,java.lang.reflect.Method)[pri:0, instance:com.logintest.Testclass2@70ed52de]" started-at="2023-08-25T16:12:58 IST" name="createExtentTest" finished-at="2023-08-25T16:12:58 IST" duration-ms="1" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name={null} status=CREATED method=Testclass2.ClickonPayUsingupi()[pri:25, instance:com.logintest.Testclass2@70ed52de] output={null}]]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[public void com.logintest.Testclass2.ClickonPayUsingupi() throws java.lang.InterruptedException]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- createExtentTest -->
-        <test-method signature="ClickonPayUsingupi()[pri:25, instance:com.logintest.Testclass2@70ed52de]" started-at="2023-08-25T16:12:58 IST" name="ClickonPayUsingupi" finished-at="2023-08-25T16:13:05 IST" duration-ms="6775" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ClickonPayUsingupi -->
-        <test-method is-config="true" signature="captureScreenshot(org.testng.ITestResult,java.lang.reflect.Method)[pri:0, instance:com.logintest.Testclass2@70ed52de]" started-at="2023-08-25T16:13:05 IST" name="captureScreenshot" finished-at="2023-08-25T16:13:05 IST" duration-ms="1" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=ClickonPayUsingupi status=SUCCESS method=Testclass2.ClickonPayUsingupi()[pri:25, instance:com.logintest.Testclass2@70ed52de] output={null}]]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[public void com.logintest.Testclass2.ClickonPayUsingupi() throws java.lang.InterruptedException]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- captureScreenshot -->
-        <test-method is-config="true" signature="createExtentTest(org.testng.ITestResult,java.lang.reflect.Method)[pri:0, instance:com.logintest.Testclass2@70ed52de]" started-at="2023-08-25T16:13:05 IST" name="createExtentTest" finished-at="2023-08-25T16:13:05 IST" duration-ms="2" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name={null} status=CREATED method=Testclass2.EnterUpiId()[pri:26, instance:com.logintest.Testclass2@70ed52de] output={null}]]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[public void com.logintest.Testclass2.EnterUpiId() throws java.io.IOException]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- createExtentTest -->
-        <test-method signature="EnterUpiId()[pri:26, instance:com.logintest.Testclass2@70ed52de]" started-at="2023-08-25T16:13:05 IST" name="EnterUpiId" finished-at="2023-08-25T16:13:05 IST" duration-ms="250" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- EnterUpiId -->
-        <test-method is-config="true" signature="captureScreenshot(org.testng.ITestResult,java.lang.reflect.Method)[pri:0, instance:com.logintest.Testclass2@70ed52de]" started-at="2023-08-25T16:13:05 IST" name="captureScreenshot" finished-at="2023-08-25T16:13:05 IST" duration-ms="1" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=EnterUpiId status=SUCCESS method=Testclass2.EnterUpiId()[pri:26, instance:com.logintest.Testclass2@70ed52de] output={null}]]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[public void com.logintest.Testclass2.EnterUpiId() throws java.io.IOException]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- captureScreenshot -->
-        <test-method is-config="true" signature="createExtentTest(org.testng.ITestResult,java.lang.reflect.Method)[pri:0, instance:com.logintest.Testclass2@70ed52de]" started-at="2023-08-25T16:13:05 IST" name="createExtentTest" finished-at="2023-08-25T16:13:05 IST" duration-ms="1" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name={null} status=CREATED method=Testclass2.ClickOnPayNow()[pri:27, instance:com.logintest.Testclass2@70ed52de] output={null}]]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[public void com.logintest.Testclass2.ClickOnPayNow() throws java.lang.InterruptedException]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- createExtentTest -->
-        <test-method signature="ClickOnPayNow()[pri:27, instance:com.logintest.Testclass2@70ed52de]" started-at="2023-08-25T16:13:05 IST" name="ClickOnPayNow" finished-at="2023-08-25T16:13:28 IST" duration-ms="22233" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ClickOnPayNow -->
-        <test-method is-config="true" signature="captureScreenshot(org.testng.ITestResult,java.lang.reflect.Method)[pri:0, instance:com.logintest.Testclass2@70ed52de]" started-at="2023-08-25T16:13:28 IST" name="captureScreenshot" finished-at="2023-08-25T16:13:28 IST" duration-ms="5" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=ClickOnPayNow status=SUCCESS method=Testclass2.ClickOnPayNow()[pri:27, instance:com.logintest.Testclass2@70ed52de] output={null}]]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[public void com.logintest.Testclass2.ClickOnPayNow() throws java.lang.InterruptedException]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- captureScreenshot -->
-        <test-method is-config="true" signature="createExtentTest(org.testng.ITestResult,java.lang.reflect.Method)[pri:0, instance:com.logintest.Testclass2@70ed52de]" started-at="2023-08-25T16:13:28 IST" name="createExtentTest" finished-at="2023-08-25T16:13:28 IST" duration-ms="11" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name={null} status=CREATED method=Testclass2.ClickonContinueButton()[pri:28, instance:com.logintest.Testclass2@70ed52de] output={null}]]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[public void com.logintest.Testclass2.ClickonContinueButton() throws java.lang.InterruptedException]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- createExtentTest -->
-        <test-method signature="ClickonContinueButton()[pri:28, instance:com.logintest.Testclass2@70ed52de]" started-at="2023-08-25T16:13:28 IST" name="ClickonContinueButton" finished-at="2023-08-25T16:13:41 IST" duration-ms="13153" status="FAIL">
-          <exception class="org.openqa.selenium.NoSuchElementException">
+        <test-method signature="ClickonContinuebutton()[pri:6, instance:com.logintest.Testclass_investmore@183ec003]" started-at="2023-08-29T15:47:04 IST" name="ClickonContinuebutton" finished-at="2023-08-29T15:47:25 IST" duration-ms="20839" status="FAIL">
+          <exception class="org.openqa.selenium.TimeoutException">
             <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"MuiButtonBase-root MuiButton-root MuiLoadingButton-root jss102 MuiButton-contained jss104 MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium css-xxp22q"}
-  (Session info: chrome=116.0.5845.98)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+              <![CDATA[Expected condition failed: waiting for visibility of element located by By.xpath: //h2[text()='Login with your broker'] (tried for 20 second(s) with 500 milliseconds interval)
 Build info: version: '4.9.1', revision: 'eb2032df7f'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [c969a49c2c5ca03c7c8103aa69de3e31, findElement {using=css selector, value=MuiButtonBase-root MuiButton-root MuiLoadingButton-root jss102 MuiButton-contained jss104 MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium css-xxp22q}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 116.0.5845.98, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: C:\Users\t\AppData\Local\Te...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63891}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63891/devtoo..., se:cdpVersion: 116.0.5845.98, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: c969a49c2c5ca03c7c8103aa69de3e31]]>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 116.0.5845.111, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: C:\Users\t\AppData\Local\Te...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55427}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55427/devtoo..., se:cdpVersion: 116.0.5845.111, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 27ac09016322e61c908b10483328c1dd]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"MuiButtonBase-root MuiButton-root MuiLoadingButton-root jss102 MuiButton-contained jss104 MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium css-xxp22q"}
-  (Session info: chrome=116.0.5845.98)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //h2[text()='Login with your broker'] (tried for 20 second(s) with 500 milliseconds interval)
 Build info: version: '4.9.1', revision: 'eb2032df7f'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [c969a49c2c5ca03c7c8103aa69de3e31, findElement {using=css selector, value=MuiButtonBase-root MuiButton-root MuiLoadingButton-root jss102 MuiButton-contained jss104 MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium css-xxp22q}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 116.0.5845.98, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: C:\Users\t\AppData\Local\Te...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63891}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63891/devtoo..., se:cdpVersion: 116.0.5845.98, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: c969a49c2c5ca03c7c8103aa69de3e31
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:193)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
-at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
-at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
-at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
-at jdk.proxy2/jdk.proxy2.$Proxy22.getText(Unknown Source)
-at com.Jarvis.Portfolio.Payment.ClickonContinueButton(Payment.java:71)
-at com.logintest.Testclass2.ClickonContinueButton(Testclass2.java:165)
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 116.0.5845.111, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: C:\Users\t\AppData\Local\Te...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55427}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55427/devtoo..., se:cdpVersion: 116.0.5845.111, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 27ac09016322e61c908b10483328c1dd
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:87)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+at com.Jarvis.Portfolio.InvestMore.clickoncontine(InvestMore.java:90)
+at com.logintest.Testclass_investmore.ClickonContinuebutton(Testclass_investmore.java:51)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -577,35 +266,35 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- ClickonContinueButton -->
-        <test-method is-config="true" signature="captureScreenshot(org.testng.ITestResult,java.lang.reflect.Method)[pri:0, instance:com.logintest.Testclass2@70ed52de]" started-at="2023-08-25T16:13:41 IST" name="captureScreenshot" finished-at="2023-08-25T16:13:41 IST" duration-ms="262" status="PASS">
+        </test-method> <!-- ClickonContinuebutton -->
+        <test-method is-config="true" signature="captureScreenshot(org.testng.ITestResult,java.lang.reflect.Method)[pri:0, instance:com.logintest.Testclass_investmore@183ec003]" started-at="2023-08-29T15:47:25 IST" name="captureScreenshot" finished-at="2023-08-29T15:47:25 IST" duration-ms="220" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=ClickonContinueButton status=FAILURE method=Testclass2.ClickonContinueButton()[pri:28, instance:com.logintest.Testclass2@70ed52de] output={null}]]]>
+                <![CDATA[[TestResult name=ClickonContinuebutton status=FAILURE method=Testclass_investmore.ClickonContinuebutton()[pri:6, instance:com.logintest.Testclass_investmore@183ec003] output={null}]]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[public void com.logintest.Testclass2.ClickonContinueButton() throws java.lang.InterruptedException]]>
+                <![CDATA[public void com.logintest.Testclass_investmore.ClickonContinuebutton()]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- captureScreenshot -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.logintest.Testclass2@70ed52de]" started-at="2023-08-25T16:13:41 IST" name="afterTest" finished-at="2023-08-25T16:13:42 IST" duration-ms="1385" status="PASS">
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.logintest.Testclass_investmore@183ec003]" started-at="2023-08-29T15:47:25 IST" name="afterTest" finished-at="2023-08-29T15:47:26 IST" duration-ms="892" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.logintest.Testclass2@70ed52de]" started-at="2023-08-25T16:13:42 IST" name="teardown" finished-at="2023-08-25T16:13:42 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.logintest.Testclass_investmore@183ec003]" started-at="2023-08-29T15:47:26 IST" name="teardown" finished-at="2023-08-29T15:47:26 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-      </class> <!-- com.logintest.Testclass2 -->
-    </test> <!-- Test -->
+      </class> <!-- com.logintest.Testclass_investmore -->
+    </test> <!-- Test Suit -->
   </suite> <!-- Suite -->
 </testng-results>

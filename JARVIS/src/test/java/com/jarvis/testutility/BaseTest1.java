@@ -4,7 +4,7 @@ import java.awt.Desktop;
 import java.io.File;
 import java.io.IOException;
 import java.lang.reflect.Method;
-import java.sql.Driver;
+
 
 import org.testng.ITestResult;
 import org.testng.annotations.AfterMethod;
@@ -19,6 +19,7 @@ import org.testng.internal.ITestResultNotifier;
 import com.Jarvis.Library.BaseClass;
 import com.Jarvis.Library.LoginPage;
 import com.Jarvis.Library.UtilityClass;
+import com.Jarvis.Portfolio.InvestMore;
 import com.Jarvis.Portfolio.InvestmentPreference;
 import com.Jarvis.Portfolio.Payment;
 import com.Jarvis.Portfolio.RiskProfile;
@@ -65,11 +66,13 @@ public class BaseTest1 extends BaseClass{
 		riskprofile=new RiskProfile(driver);
 		investmentpreference=new InvestmentPreference(driver);
 		payment=new Payment(driver);
+		investmore=new InvestMore(driver);
 	}
 		 public LoginPage loginpage;
 		 public RiskProfile riskprofile;
 		 public InvestmentPreference investmentpreference;
 		 public Payment payment;
+		 public InvestMore investmore;
 }
 
 

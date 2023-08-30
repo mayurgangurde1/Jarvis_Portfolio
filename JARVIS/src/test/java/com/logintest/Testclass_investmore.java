@@ -20,10 +20,40 @@ public class Testclass_investmore extends BaseTest1 {
 			loginpage.Enterpassword(UtilityClass.getDatafromPropertyFile("Password"));
 			loginpage.ClickOnLogin();
 	}
-//	@Test(priority = 3)
-//	public v
-	
-	
+	@Test(priority = 3)
+	public void ClickOnPortfolio() {
+		investmore.clickonportfolio();
+	}
+	@Test(priority = 4)
+	public void ClickonInvetmore() throws InterruptedException {
+		investmore.clickoninvestmore();
+	}
+//	@Test(priority = 5)
+//	public void EnterAmount() {
+//		investmore.EnterAmount();
+//	}
+//	@Test(priority = 6)
+//	public void ClickonContinueButton() throws InterruptedException {
+//		investmore.ClickonContinue();
+//		
+//	}
+//	@Test(priority = 7)
+//	public void ClickonContinue2Button() throws InterruptedException {
+//		investmore.ClickonContine2button();		
+//	}
+//	
+	@Test(priority = 5)
+	public void ClickonProceedButton() {
+		investmore.Clickonproceed();
+	}
+	@Test(priority = 6)
+	public void ClickonContinuebutton() {
+		investmore.clickoncontine();
+	}
+//	@Test(priority = 7)
+//	public void ClickonContinuebutton() {
+//		investmore.clickoncontine();
+//	}
 	
 	
 	
