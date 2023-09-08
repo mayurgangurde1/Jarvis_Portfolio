@@ -1,8 +1,12 @@
 package com.Jarvis.Portfolio;
 
 import java.io.IOException;
+import java.time.Duration;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.StaleElementReferenceException;
+import org.openqa.selenium.TimeoutException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -63,14 +67,49 @@ public class InvestmentPreference extends BaseClass {
 	public void ClickConfirmPreference() throws InterruptedException
 	{
 		ConfirmPreference.click();
-		Thread.sleep(8000);
 	}
 	public void ClickonunlockNowButtton() 
 	{
+		Duration timeout = Duration.ofSeconds(30);
+		WebDriverWait wait = new WebDriverWait(driver, timeout);
+		wait.until(webDriver -> ((JavascriptExecutor) webDriver).executeScript("return document.readyState").equals("complete"));
+		
+		try {
+			
+		WebElement element = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//div[text()='Unlock now']")));
+        wait.until(ExpectedConditions.elementToBeClickable(element)).click();
+        System.out.println(element.getText());
+	        } 
+		
+		catch (StaleElementReferenceException e) {
+	    	}
+		}
 //		  	WebDriverWait wait = new WebDriverWait(driver, 10);
 //	        WebElement buttonElement = wait.until(ExpectedConditions.elementToBeClickable(UnlockNow));
 //	        buttonElement.click();
-		UnlockNow.click();	
+		//UnlockNow.click();
+		public void clickOnUnlockNowButton(){
+		    Duration timeout = Duration.ofSeconds(40);
+		    WebDriverWait wait = new WebDriverWait(driver, timeout);
+
+		    wait.until(webDriver -> ((JavascriptExecutor) webDriver).executeScript("return document.readyState").equals("complete"));
+
+		    try {
+		        WebElement element = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//div[text()='Unlock now']")));
+
+		        // Check if the element is clickable
+		        if (element != null) {
+		            wait.until(ExpectedConditions.elementToBeClickable(element)).click();
+		            System.out.println("Clicked on: " + element.getText());
+		        } else {
+		            System.out.println("Element is null. It may not have been found.");
+		        }
+		    } catch (StaleElementReferenceException e) {
+		        System.out.println("Stale Element Reference Exception: " + e.getMessage());
+		    } catch (TimeoutException e) {
+		        System.out.println("Timeout Exception: " + e.getMessage());
+		    }
+		}	
 	}
-}
+
 

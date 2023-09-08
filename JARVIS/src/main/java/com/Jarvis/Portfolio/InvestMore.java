@@ -2,7 +2,13 @@ package com.Jarvis.Portfolio;
 
 import static org.testng.Assert.assertEquals;
 
-import java.time.Duration;import org.apache.poi.xdgf.usermodel.shape.ShapeTextVisitor.TextAcceptor;
+import java.time.Duration;
+import java.util.ArrayList;
+import java.util.Set;
+
+import javax.lang.model.element.Element;
+
+import org.apache.poi.xdgf.usermodel.shape.ShapeTextVisitor.TextAcceptor;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.StaleElementReferenceException;
@@ -28,10 +34,12 @@ public class InvestMore extends BaseClass{
 	@FindBy(xpath = "(//button[@tabindex='0'])[6]")private WebElement Continue2;
 	@FindBy(xpath = "(//button[normalize-space()='Proceed'])[1]")private WebElement proceed;
 	@FindBy(xpath = "//button[text()='Continue']")private WebElement contiue;
-	
+	@FindBy(xpath = "//a[text()='Open an account online']")private WebElement openaccount;
+
 	public InvestMore(WebDriver driver) {
 
 		PageFactory.initElements(driver, this);
+	
 	}
 
 	public void clickonportfolio() {
@@ -79,23 +87,41 @@ public class InvestMore extends BaseClass{
 		System.out.println(proceed.getText());
 	}
 	
-	public void clickoncontine() {
+	public void clickoncontine() throws InterruptedException {
 		contiue.click();
-	
 		Duration timeout = Duration.ofSeconds(20);
 		WebDriverWait wait = new WebDriverWait(driver, timeout);
-		wait.until(webDriver -> ((JavascriptExecutor) webDriver).executeScript("return document.readyState").equals("complete"));
-		try {
+		wait.until(webDriver -> ((JavascriptExecutor) webDriver).executeScript("return document.readyState").equals("complete"));	
+		Thread.sleep(8000);
+//		try {
+//			
+//			WebElement element = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//h2[text()='Login with your broker']")));
+//	        System.out.println(element.getText());
+//		        } 
+//			
+//			catch (StaleElementReferenceException e) {
+//		    	}
 			
-			WebElement element = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//h2[text()='Login with your broker']")));
-	        wait.until(ExpectedConditions.elementToBeClickable(element)).click();
-	        System.out.println(element.getText());
-		        } 
-			
-			catch (StaleElementReferenceException e) {
-		    	}
-			}
-
-//		WebElement element = driver.findElement(By.xpath("//h2[text()='Login with your broker']"));
-//		System.out.println(element.getText());
 	}
+	
+	public void clickonopenaccount() throws InterruptedException {
+		
+		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
+
+		// Wait for the presence of the element and then wait for its visibility
+		wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//*[@id=\"app\"]/div/div[2]/div/div/div/div/div[1]/h2")));
+		WebElement thirdPartyElement = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[@id=\"app\"]/div/div[2]/div/div/div/div/div[1]/h2")));
+
+		// Extract and print the text of the element on the third-party screen
+		String thirdPartyElementText = thirdPartyElement.getText();
+		System.out.println("Third-Party Element Text: " + thirdPartyElementText);
+//	   WebElement thirdPartyElement = wait.until(ExpectedConditions.and(ExpectedConditions.presenceOfElementLocated(By.xpath(""))),ExpectedConditions.visibilityOfElementLocated(By.xpath("//h2[text()='Login with your broker']")));
+//	      
+//	        // Extract and print the text of the element on the third-party screen
+//	        String thirdPartyElementText = thirdPartyElement.getText();
+//	        System.out.println("Third-Party Element Text: " + thirdPartyElementText);
+//	
+	
+	
+	}
+}

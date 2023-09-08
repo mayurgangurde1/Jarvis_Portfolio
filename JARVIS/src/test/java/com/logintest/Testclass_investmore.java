@@ -47,13 +47,13 @@ public class Testclass_investmore extends BaseTest1 {
 		investmore.Clickonproceed();
 	}
 	@Test(priority = 6)
-	public void ClickonContinuebutton() {
+	public void ClickonContinuebutton() throws InterruptedException {
 		investmore.clickoncontine();
 	}
-//	@Test(priority = 7)
-//	public void ClickonContinuebutton() {
-//		investmore.clickoncontine();
-//	}
+	@Test(priority = 7)
+	public void Clickonopenaccount() throws InterruptedException {
+		investmore.clickonopenaccount();
+	}
 	
 	
 	

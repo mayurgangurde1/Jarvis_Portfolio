@@ -108,7 +108,7 @@ public class Testclass1 extends BaseTest1 {
 	@Test(priority =17)
 	public void UnlockPortfolioButton()
 	{
-			investmentpreference.ClickonunlockNowButtton();
+			investmentpreference.clickOnUnlockNowButton();
 	}
 	@Test(priority = 18)
 	public void ClickOnPayNowButton()

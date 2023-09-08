@@ -77,7 +77,7 @@ public class UtilityClass {
 		props.put("mail.mime.base64.ignoreerrors", "true");
 		Session session = Session.getDefaultInstance(props, null);
 		Store store = session.getStore("imap");
-		store.connect("imap.gmail.com", "gangurdemayur97@gmail.com","oenqvzakqjdmhwlm");
+		store.connect("imap.gmail.com", "mayur.gangurde@techstalwarts.com","oenqvzakqjdmhwlm");
 		Folder folder = store.getFolder("Inbox");
 		folder.open(Folder.READ_WRITE);
 
@@ -106,6 +106,4 @@ public class UtilityClass {
 		}
 		return "";
 	}
-	
-
 }
