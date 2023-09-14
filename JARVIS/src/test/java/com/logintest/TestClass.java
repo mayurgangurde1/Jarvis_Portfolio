@@ -42,7 +42,7 @@ public class TestClass extends BaseTest{
 		ExtentTest test = extentReport.createTest("VerifyLoginFunctionality");
 		loginpage.ClickOnLoginWithPasswordLink();
 		//TO Genrate Random mail.
-		//L1.EnterEmailId((String) UtilityClass.generateRanodmEmail());
+		loginpage.EnterEmailId((String) UtilityClass.generateRanodmEmail());
 		loginpage.EnterEmailId(UtilityClass.getDatafromPropertyFile("Email"));
 		loginpage.Enterpassword(UtilityClass.getDatafromPropertyFile("Password"));
 		loginpage.ClickOnLogin();
