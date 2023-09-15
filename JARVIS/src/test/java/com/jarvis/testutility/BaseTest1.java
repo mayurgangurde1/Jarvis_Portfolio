@@ -18,10 +18,12 @@ import org.testng.internal.ITestResultNotifier;
 
 import com.Jarvis.Library.BaseClass;
 import com.Jarvis.Library.LoginPage;
+import com.Jarvis.Library.SignupPage;
 import com.Jarvis.Library.UtilityClass;
 import com.Jarvis.Portfolio.InvestMore;
 import com.Jarvis.Portfolio.InvestmentPreference;
 import com.Jarvis.Portfolio.Payment;
+import com.Jarvis.Portfolio.Profile;
 import com.Jarvis.Portfolio.RiskProfile;
 import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.Status;
@@ -59,7 +61,8 @@ public class BaseTest1 extends BaseClass{
 		else {
 			test.log(Status.PASS,m.getName());
 		}
-	}
+	}	
+	
 	@BeforeClass
 	public void pageobjects() {
 		loginpage=new LoginPage(driver);
@@ -67,12 +70,16 @@ public class BaseTest1 extends BaseClass{
 		investmentpreference=new InvestmentPreference(driver);
 		payment=new Payment(driver);
 		investmore=new InvestMore(driver);
+		profile=new Profile(driver);
+		signup=new SignupPage(driver);
 	}
 		 public LoginPage loginpage;
 		 public RiskProfile riskprofile;
 		 public InvestmentPreference investmentpreference;
 		 public Payment payment;
 		 public InvestMore investmore;
+		 public Profile profile;
+		 public SignupPage signup;
 }
 
 

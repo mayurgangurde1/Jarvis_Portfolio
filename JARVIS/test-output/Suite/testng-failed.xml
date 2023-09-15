@@ -3,28 +3,18 @@
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="com.logintest.Testclass1">
+      <class name="com.logintest.Testclass3_Onboardingcompleted">
         <methods>
-          <include name="ClickOnPayNowButton"/>
           <include name="beforeTest"/>
-          <include name="selectpaymentmethod"/>
-          <include name="CLickonVerifyButton"/>
           <include name="teardown"/>
-          <include name="ClickOnPayNow"/>
-          <include name="ClickonPaynowButton"/>
-          <include name="afterTest"/>
           <include name="pageobjects"/>
-          <include name="InitializeBrowser"/>
-          <include name="ClickonContinueButton"/>
-          <include name="ClickOnIAgreeButton"/>
           <include name="createExtentTest"/>
-          <include name="ClickonPayUsingupi"/>
-          <include name="UnlockPortfolioButton"/>
+          <include name="VerifyProfileDetails"/>
+          <include name="afterTest"/>
           <include name="captureScreenshot"/>
-          <include name="EnterUpiId"/>
-          <include name="EnterUpiID"/>
+          <include name="InitializeBrowser"/>
         </methods>
-      </class> <!-- com.logintest.Testclass1 -->
+      </class> <!-- com.logintest.Testclass3_Onboardingcompleted -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
