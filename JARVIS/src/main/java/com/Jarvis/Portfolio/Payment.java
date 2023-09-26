@@ -12,7 +12,7 @@ import com.Jarvis.Library.UtilityClass;
 import net.bytebuddy.asm.MemberSubstitution.FieldValue;
 
 public class Payment {
-
+	public WebDriver driver;	
 	@FindBy(xpath ="//button[text()='Pay ']")private WebElement Pay;
 	@FindBy(xpath ="//button[text()='I agree']")private WebElement IAgree;
 	@FindBy(xpath = "(//input[@name='paymentMethod'])[1]")private WebElement Paymentmethod;
@@ -27,6 +27,7 @@ public class Payment {
 			
 	public Payment(WebDriver driver)
 	{
+		this.driver = driver;
 		PageFactory.initElements(driver, this);
 	}
 	public void ClickoPayButton()
